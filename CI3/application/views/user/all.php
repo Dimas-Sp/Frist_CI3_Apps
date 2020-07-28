@@ -13,7 +13,9 @@
         <h1 class="card-title pricing-card-title">Rp.1000 <small class="text-muted">/ Bulan</small></h1>
         <ul class="list-unstyled mt-3 mb-4">
           <li>Asal : Bogor</li>
-          <li>Nama Penjual : -</li>
+          <li>Nama Penjual</li>
+          <li>Harga</li>
+          <li>Asal</li>
         </ul>
         <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
       </div>
