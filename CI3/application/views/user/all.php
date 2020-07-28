@@ -10,12 +10,12 @@
         <h4 class="my-0 font-weight-normal">Laptop</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">Rp.1000 <small class="text-muted"></small></h1>
+        <h1 class="card-title pricing-card-title">Rp.1000 <small class="text-muted">/ Bulan</small></h1>
         <ul class="list-unstyled mt-3 mb-4">
           <li>Asal : Bogor</li>
           <li>Nama Penjual : -</li>
           <li>Stok : 1</li>
-          <li>Asal</li>
+          
         </ul>
         <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
       </div>

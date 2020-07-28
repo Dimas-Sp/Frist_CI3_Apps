@@ -33,7 +33,14 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('template/head');
 		$this->load->view('template/topbar');
-		$this->load->view('user/all');
+		$this->load->view('conten/insert');
 		$this->load->view('template/foot');
+	}
+	public function kirim()
+	{
+		$data=$_POST;
+		$this->load->model('ITEM_MODELS');
+		$this->ITEM_MODELS->upload($data);
+		redirect('/');
 	}
 }
