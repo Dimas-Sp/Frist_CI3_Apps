@@ -18,7 +18,7 @@
                     <tr role="row">
 										<th class="sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 139.819px;">NAMA PRODUK</th>
 										<th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 233.719px;">HARGA</th>
-                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 100.861px;">PENJUAL</th>
+                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 100.861px;">NAMA PENJUAL</th>
                     <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 38.9272px;">ASAL</th>
                     <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 38.9272px;">IMG</th>
                     <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 38.9272px;">ACTION</th></tr>
@@ -27,7 +27,7 @@
                     <tr>
 										<th rowspan="1" colspan="1">NAMA PRODUK</th>
 										<th rowspan="1" colspan="1">HARGA</th>
-                    <th rowspan="1" colspan="1">PENJUAL</th>
+                    <th rowspan="1" colspan="1">NAMA PENJUAL</th>
                     <th rowspan="1" colspan="1">ASAL</th>
                     <th rowspan="1" colspan="1">IMG</th>
 										<th rowspan="1" colspan="1">ACTION</th></tr>
