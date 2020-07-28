@@ -1,6 +1,12 @@
 <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">ITEM TABELS</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">ITEM TABELS |
+                   <a href="welcome/insert" class="btn btn-primary btn-icon-split btn-lg">
+                    <span class="icon text-white-50">
+                      <i class="fas fa-flag"></i>
+                    </span>
+                    <span class="text">Tambah Data</span>
+                  </a></h6>
                 </div>
                 <div class="card-body">
 								<div class="card shadow mb-4">

@@ -29,4 +29,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('conten/home',$data);
 		$this->load->view('template/foot');
 	}
+	public function insert()
+	{
+		$this->load->view('template/head');
+		$this->load->view('template/topbar');
+		$this->load->view('user/all');
+		$this->load->view('template/foot');
+	}
 }
