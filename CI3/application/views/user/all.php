@@ -1,26 +1,42 @@
 
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <h1 class="display-4">Welcome To MyWEB</h1>
+<!-- COMPONEN -->
+<div class="mx-auto mr-1 pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+	<?php echo $this->session->flashdata('succes'); ?>
 </div>
+<div class="container mx-auto">
+	<div class="row text-center mx-auto">
 
-<div class="container">
-  <div class="card-deck mb-3 text-center">
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Laptop</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">Rp.1000 <small class="text-muted">/ Bulan</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>Asal : Bogor</li>
-          <li>Nama Penjual : -</li>
-          <li>Stok : 1</li>
-          
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-      </div>
-    </div>
-    </div>
-  </div>
-
-  
+		<?php foreach ($items as $key => $itm) : ?>
+			<div class=" col-md-3 mt-2">
+				<div class="card shadow-sm">
+					<div class="card-header">
+						<h4 class="my-0 font-weight-normal"><?= $itm->PRODUK; ?></h4>
+					</div>
+					<div class="card-body">
+						<h3 class="card-title pricing-card-title">
+							<small class="text-muted">Rp.</small><?= $itm->HARGA; ?></h3>
+						<ul class="list-unstyled mt-3 mb-4">
+							<li>ASAL : <?= $itm->ASAL ?></li>
+							<li>
+								<? $a = strlen($itm->NAMA);
+								if ($a < 7) {
+									echo $itm->NAMA;
+								} else {
+									echo '<small>' . $itm->NAMA . '</small>';
+								} ?>
+							</li>
+							<li>STOK : <?= $itm->id; ?></li>
+						</ul>
+						<div class=" ml-9">
+							<img class="card-img-top" src="<?= $itm->IMG_LINK; ?>" alt="">
+						</div>
+						<hr>
+						<a href="<?= base_url('user/view') ?>?id=<?= $itm->id; ?>" class="btn btn-lg btn-block btn-primary">Get started</a>
+					</div>
+				</div>
+			</div>
+			<br>
+		<?php endforeach; ?>
+	</div>
+</div>
+<!-- ENDCOMPONEN -->
